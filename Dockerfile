@@ -24,4 +24,4 @@ EXPOSE 80
 VOLUME [ "/books" ]
 ENV BASE_PATH=/
 
-ENTRYPOINT ["./openbooks --searchbot searchook", "server", "--dir", "/books", "--port", "80"]
+ENTRYPOINT ["./openbooks", "server", "--dir", "/books", "--port", "80"]
